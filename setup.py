@@ -40,9 +40,14 @@ URL = 'https://github.com/romaryd/lifoid-google-translate'
 LICENSE = text_of('LICENSE')
 PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
-INSTALL_REQUIRES = ['httplib2']
+INSTALL_REQUIRES = [
+    'lifoid',
+    'httplib2'
+]
 TEST_SUITE = 'tests'
-TESTS_REQUIRE = ['pytest']
+TESTS_REQUIRE = [
+    'pytest'
+]
 
 CLASSIFIERS = [
     'Development Status :: 1 - Alpha',
