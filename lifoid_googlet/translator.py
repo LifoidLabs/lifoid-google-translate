@@ -7,7 +7,7 @@ import json
 import urllib
 import httplib2
 from lifoid.config import settings
-from lifoid.translate import Translator
+from lifoid.nlu.translator import Translator
 
 """
 Language Code
